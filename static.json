@@ -1,0 +1,15 @@
+{
+    "root": ".",
+    "headers": {
+        "/**": {
+            "Cache-Control": "no-store, must-revalidate, max-age=0",
+            "Access-Control-Allow-Origin": "*",
+            "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "ALLOWALL",
+            "Referrer-Policy": "strict-origin",
+            "Content-Security-Policy": "default-src 'self' cdn.8thwall.com blob:; script-src 'unsafe-eval' 'unsafe-inline' 'self' blob: https://apps.8thwall.com https://cdn.8thwall.com https://sdk.amazonaws.com/js/aws-sdk-2.934.0.min.js https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtag/js; style-src 'unsafe-inline' 'self'; object-src 'self'; base-uri 'self'; connect-src 'self' data: https://apps.8thwall.com data: https://d1q7kiyxhwtovz.cloudfront.net data: https://samsung-ar.s3.us-east-2.amazonaws.com data: https://cdn.8thwall.com https://www.google-analytics.com blob:; font-src 'self' https://cdn.8thwall.com; frame-src 'self'; img-src 'self' https://samsung-ar.s3.us-east-2.amazonaws.com https://d1q7kiyxhwtovz.cloudfront.net https://cdn.8thwall.com https://8th.io https://www.googletagmanager.com data:; manifest-src 'self'; media-src 'self'; report-uri https://60e76c3ff3f2f1012f9f09ae.endpoint.csper.io/;"
+        }
+    },
+    "https_only": true
+}
