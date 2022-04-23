@@ -1,4 +1,4 @@
-# test-pipeline
+# heroku-pipeline-setup
 
 The actual files in the repository are just a test site, this github repo gets hooked up to heroku and will autodeploy anytime a change is pushed.
 
