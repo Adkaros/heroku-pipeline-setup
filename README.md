@@ -5,7 +5,7 @@ The actual files in the repository are just a test site, this github repo gets h
 
 After the git push, the build will appear on the subdomain hooked up to the Development dyno. From here we can promote the development build to staging, and then to production. This allows for us to separate builds cleanly without needing to juggle files depending on who's looking.
 
-Create new pipeline and connect github repo
+# Create new pipeline and connect github repo
 
 ![image](https://user-images.githubusercontent.com/7696222/164936431-9a0811f3-8ce0-4040-9560-a5dfa9864520.png)
 
@@ -15,7 +15,7 @@ In order to add to the development swimlane (this lane isn’t shown by default)
 
 ![image](https://user-images.githubusercontent.com/7696222/164936448-42832bf4-5823-412f-8fdd-b1207bdc1661.png)
 
-Settings / Buildpack
+# Settings / Buildpack
 In the dyno you plan to deploy to, set the build pack, or the build will fail.
 Use the below link for playcanvas builds (https://buildpack-registry.s3.amazonaws.com/buildpacks/heroku-community/static.tgz)
 
@@ -24,7 +24,7 @@ This allows you to configure CSP rules
 The file itself has a specific format and the rules will vary depending on project setup, domains supported, etc.
 Possible starting point: https://report-uri.com/home/generate 
 
-Overview
+# Overview
 You now have a full development pipeline
 New changes and build should be pushed to the git branch associated with pipe-dev, with auto deploy, all you need to do is a standard git add/git commit/git push
 Once pipe-dev has a new build, it can be promoted to staging (typically for client preview builds), or production (final builds, user facing)
